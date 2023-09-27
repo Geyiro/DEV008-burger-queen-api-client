@@ -1,11 +1,16 @@
-## <1.0.0> - <20.09.2023>
+## <1.1.0> - <27.09.2023>
 
 ### Sprint learnings
 
-- How to apply custom styles in Tailwind
-- Importing images
-- Importing a webfont into tailwind
+- Semantic html
+- The manage of responsive w Tailwind
+- Achiving overlapping of sections 
+
+### Changed
+
+- Re-size of certain elements from initial design (logo, buttons, inputs)
+- The 'Go Back' button design
 
 ### Added
 
-- Rough login interface for US1
+- Finished the login interface for UH1 with responsive up to tablet
