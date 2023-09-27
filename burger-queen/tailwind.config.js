@@ -20,6 +20,9 @@ export default {
       boxShadow: {
         button: "1px 7px 13px 0px rgba(0, 0, 0, 0.20)",
       },
+      borderRadius: {
+        '3xl':"70px",
+      },
     },
   },
   plugins: [require("flowbite/plugin")],
