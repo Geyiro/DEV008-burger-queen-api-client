@@ -21,7 +21,10 @@ export default {
         button: "1px 7px 13px 0px rgba(0, 0, 0, 0.20)",
       },
       borderRadius: {
-        '3xl':"70px",
+        "3xl": "70px",
+      },
+      inset: {
+        "3px": "50%",
       },
     },
   },
