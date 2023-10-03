@@ -9,8 +9,6 @@ export function Routes() {
       <ReactRouter>
         <Route path="/" element={<Home />} />
         <Route path="/waiterlogin" element={<WaiterLogin />} />
-        {/* <Route path="/admin/login" element={<WaiterLogin />} /> */}
-        {/* <Route path="/WaiterMenu" element={<WaiterMenu />} /> */}
       </ReactRouter>
     </BrowserRouter>
   );
