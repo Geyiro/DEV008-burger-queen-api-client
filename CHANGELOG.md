@@ -1,16 +1,18 @@
-## <1.1.0> - <27.09.2023>
+## <1.2.0> - <04.10.2023>
 
 ### Sprint learnings
 
-- Semantic html
-- The manage of responsive w Tailwind
-- Achiving overlapping of sections 
+- Separating page layouts as components
+- REACT Routes
+- Connecting the API
+- The use of an API testing tool (Insomnia)
+- Implementing Typescript (basic)
 
 ### Changed
 
-- Re-size of certain elements from initial design (logo, buttons, inputs)
-- The 'Go Back' button design
+- Layout components for global shared designs
 
 ### Added
 
-- Finished the login interface for UH1 with responsive up to tablet
+- Folder Routes in src (contains REACT Routes)
+- Folder api
