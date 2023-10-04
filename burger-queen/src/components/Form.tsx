@@ -1,6 +1,24 @@
+import { login } from "../api/login";
+
+async function handleSubmit(e: any) {
+  e.preventDefault();
+
+  const { email, password } = e.target;
+
+  const loginResponse = await login(email.value, password.value);
+
+  if (loginResponse instanceof Error) {
+    alert(loginResponse);
+    return;
+  }
+
+  localStorage.setItem("authToken", loginResponse.accessToken);
+  localStorage.setItem("user", JSON.stringify(loginResponse.user));
+}
+
 export function Form() {
   return (
-    <form className="w-full content-center relative">
+    <form className="w-full content-center relative" onSubmit={handleSubmit}>
       <div className="mb-6">
         <input
           type="email"
